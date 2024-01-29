@@ -19,8 +19,6 @@ A software house profile website built with ReactJS and TailwindCSS:computer:
 - [**React Toastify**](https://www.npmjs.com/package/react-toastify) : Toast notification 
 - [**ESLint**](https://eslint.org/) : Linting and formatting
 
-### Demo
-**Demo :** https://DrawnOnward.netlify.app/
 
 ### Available Scripts
 
