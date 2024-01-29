@@ -1,5 +1,5 @@
 {
-  "name": "tailwind-racxstudio",
+  "name": "tailwind-DrawnOnward",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
+    "caniuse-lite": "^1.0.30001580",
     "emailjs-com": "^2.6.4",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",

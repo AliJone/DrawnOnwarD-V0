@@ -24,7 +24,7 @@ export default function DiscussForm(props) {
 
     const templateParams = {
       from_name: `${name} - ${company} ( ${phone} - ${email} )`,
-      to_name: 'Racxstudio',
+      to_name: 'DrawnOnward',
       message: projectIdea,
     };
 
@@ -36,10 +36,10 @@ export default function DiscussForm(props) {
             && projectIdea !== ''
     ) {
       emailjs.send(
-        'service_h4gtndg',
-        'template_a9tvs7a',
+        'service_q2sk7ri',
+        'template_8xlkb9p',
         templateParams,
-        'user_csqIxzN5mKsl1yw4ffJzV',
+        'WBvSIQROM1m2NE3vL',
       )
         .then(() => {
           toast.success('Success! we\'\ll get back to you soon. Thank you!');

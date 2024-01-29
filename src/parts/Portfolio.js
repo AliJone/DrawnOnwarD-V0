@@ -8,6 +8,7 @@ import Fade from 'react-reveal/Fade';
 import Button from 'elements/Button';
 
 export default function Portfolio({ data }) {
+  const newData = data.slice(0, 3);
   return (
     <section className="container mx-auto flex flex-col items-center mt-20">
       <Fade bottom>
@@ -20,7 +21,7 @@ export default function Portfolio({ data }) {
 
       <div className="grid grid-cols-2 sm:grid-cols-3 sm:gap-2 xl:gap-8 justify-items-center">
         {
-                    data.map((item, index) => (
+                    newData.map((item, index) => (
                       <Fade bottom delay={500 * index}>
                         <Button type="link" href={`/project/${item.id}`}>
                           <div className="group rounded-2xl shadow-xl w-auto w-11/12 m-3 transform transition duration-500 hover:scale-110 portofolio-card">
