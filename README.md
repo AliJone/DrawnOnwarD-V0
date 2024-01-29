@@ -1,5 +1,5 @@
-# Racx Studio
-![alt text](https://github.com/racmathafidz/racxstudio/blob/master/src/assets/images/screely.png)
+# DrawnOnward
+![alt text](https://github.com/racmathafidz/DrawnOnward/blob/master/src/assets/images/screely.png)
 
 ### About
 A software house profile website built with ReactJS and TailwindCSS:computer:
@@ -20,7 +20,7 @@ A software house profile website built with ReactJS and TailwindCSS:computer:
 - [**ESLint**](https://eslint.org/) : Linting and formatting
 
 ### Demo
-**Demo :** https://racxstudio.netlify.app/
+**Demo :** https://DrawnOnward.netlify.app/
 
 ### Available Scripts
 
@@ -46,3 +46,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+# DrawnOnwarD
