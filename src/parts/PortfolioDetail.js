@@ -22,7 +22,7 @@ export default function PortfolioDetail({ data }) {
               Project Not Found
             </h1>
             <div className="flex justify-center">
-              <Button href="/project" type="link" className="flex w-30 h-10 px-5 mt-5 bg-theme-blue text-white items-center rounded transform transition duration-500 hover:bg-gray-900">
+              <Button href="/DrawnOnwarD/project" type="link" className="flex w-30 h-10 px-5 mt-5 bg-theme-blue text-white items-center rounded transform transition duration-500 hover:bg-gray-900">
                 Go Back
               </Button>
             </div>
@@ -35,7 +35,7 @@ export default function PortfolioDetail({ data }) {
   return (
     <section className="container mx-auto">
       <Fade bottom>
-        <Button type="link" href="/project" className="flex w-40 h-8 text-lg items-center ml-6 sm:ml-20 mt-8 font-light text-gray-400 hover:underline">
+        <Button type="link" href="/DrawnOnwarD/project" className="flex w-40 h-8 text-lg items-center ml-6 sm:ml-20 mt-8 font-light text-gray-400 hover:underline">
           <svg className="w-5 h-5 text-gray-400 mr-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
           </svg>

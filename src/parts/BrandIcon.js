@@ -8,7 +8,7 @@ export default function BrandIcon() {
     <Button
       className=""
       type="link"
-      href="/"
+      href="/DrawnOnwarD/"
     >
       <p className="text-theme-blue text-4xl">
         Drawn
