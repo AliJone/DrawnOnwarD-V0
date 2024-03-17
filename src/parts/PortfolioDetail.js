@@ -56,7 +56,7 @@ export default function PortfolioDetail({ data }) {
 
                     <Fade bottom delay={300 * 1}>
                       <div className="flex justify-center xl:mb-6">
-                        <img src={`../${item.imageUrl}`} alt="Project" className="flex w-4/5 sm:w-4/6" />
+                        <img src={`${item.imageUrl}`} alt="Project" className="flex w-4/5 sm:w-4/6" />
                       </div>
                     </Fade>
 
