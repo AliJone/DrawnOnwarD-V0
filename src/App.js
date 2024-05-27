@@ -15,10 +15,10 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/DrawnOnwarD/" component={LandingPage} />
-        <Route exact path="/DrawnOnwarD/project" component={ProjectPage} />
-        <Route exact path="/DrawnOnwarD/project/:id" component={ProjectDetailPage} />
-        <Route exact path="/DrawnOnwarD/discuss-project" component={DiscussProjectPage} />
+        <Route exact path="/" component={LandingPage} />
+        <Route exact path="/project" component={ProjectPage} />
+        <Route exact path="/project/:id" component={ProjectDetailPage} />
+        <Route exact path="/discuss-project" component={DiscussProjectPage} />
         <Route path="" component={NotFoundPage} />
       </Switch>
     </Router>
