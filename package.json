@@ -1,6 +1,6 @@
 {
-  "homepage": "https://alijone.github.io/DrawnOnwarD",
-  "name": "tailwind-DrawnOnward",
+  "homepage": "https://www.drawnonward.org/",
+  "name": "DrawnOnwarD",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,8 +16,10 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
     "react-reveal": "^1.2.2",
     "react-router-dom": "^5.2.0",
+    "react-router-sitemap": "^1.2.0",
     "react-scripts": "4.0.3",
     "react-tabs": "^3.2.1",
     "react-toastify": "^7.0.3",
@@ -30,7 +32,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [

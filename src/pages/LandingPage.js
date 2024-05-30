@@ -11,6 +11,8 @@ import Testimonial from 'parts/Testimonial';
 import Discuss from 'parts/Discuss';
 import Footer from 'parts/Footer';
 
+import { Helmet } from 'react-helmet';
+
 import Data from 'json/landingPage.json';
 
 export default class LandingPage extends Component {
@@ -21,6 +23,12 @@ export default class LandingPage extends Component {
   render() {
     return (
       <>
+        <Helmet>
+          <title>DrawnOnwarD - Leading Software House</title>
+          <meta name="description" content="Welcome to DrawnOnwarD, a leading software house specializing in innovative solutions and cutting-edge technology." />
+          <meta name="title" content="DrawnOnwarD - Leading Software House" />
+          <meta name="description" content="Welcome to DrawnOnwarD, a leading software house specializing in innovative solutions and cutting-edge technology." />
+        </Helmet>
         <Header {...this.props} />
         <Hero {...this.props} />
         <Service data={Data.service} />

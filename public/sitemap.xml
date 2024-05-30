@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Landing Page -->
+  <url>
+    <loc>https://www.drawnonward.com/</loc>
+    <lastmod>2024-05-30</lastmod>
+    <priority>1.00</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
+  <!-- Project Page -->
+  <url>
+    <loc>https://www.drawnonward.com/project</loc>
+    <lastmod>2024-05-30</lastmod>
+    <priority>0.80</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Project Detail Pages -->
+  <url>
+    <loc>https://www.drawnonward.com/project/asd1293uasdads1</loc>
+    <lastmod>2024-05-30</lastmod>
+    <priority>0.70</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.drawnonward.com/project/asd1293uvbvcbbd3</loc>
+    <lastmod>2024-05-30</lastmod>
+    <priority>0.70</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.drawnonward.com/project/asd1293uhjkhkjh2</loc>
+    <lastmod>2024-05-30</lastmod>
+    <priority>0.70</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.drawnonward.com/project/asd1293uvbvcbbd4</loc>
+    <lastmod>2024-05-30</lastmod>
+    <priority>0.70</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Discuss Project Page -->
+  <url>
+    <loc>https://www.drawnonward.com/discuss-project</loc>
+    <lastmod>2024-05-30</lastmod>
+    <priority>0.80</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- 404 Not Found Page -->
+  <url>
+    <loc>https://www.drawnonward.com/404</loc>
+    <lastmod>2024-05-30</lastmod>
+    <priority>0.20</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+
+</urlset>

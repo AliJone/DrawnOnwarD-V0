@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import Header from 'parts/Header';
 import DiscussForm from 'parts/DiscussForm';
 import Footer from 'parts/Footer';
+import { Helmet } from 'react-helmet';
 
 export default class DiscussProjectPage extends Component {
   constructor(props) {
@@ -51,7 +52,12 @@ export default class DiscussProjectPage extends Component {
 
       return (
         <>
-          {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+          <Helmet>
+            <title>Discuss Your Project - DrawnOnwarD</title>
+            <meta name="description" content="Get in touch with us to discuss your project and how we can help bring your vision to life." />
+            <meta name="title" content="Discuss Your Project - DrawnOnwarD" />
+            <meta name="description" content="Get in touch with us to discuss your project and how we can help bring your vision to life." />
+          </Helmet>
           <Header {...this.props} />
           <DiscussForm data={data} onChange={this.onChange} resetForm={this.resetForm} />
           <Footer />
